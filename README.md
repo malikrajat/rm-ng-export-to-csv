@@ -32,11 +32,13 @@ Install the library via npm:
 
 Ensure your Angular version is 14 or higher.
 
----
+[//]: # (---)
 
-## 🚀 Live DEMO
+[//]: # ()
+[//]: # (## 🚀 Live DEMO)
 
-[See the implementation here](https://stackblitz.com/edit/stackblitz-starters-vzwa4w)
+[//]: # ()
+[//]: # ([See the implementation here]&#40;https://stackblitz.com/edit/stackblitz-starters-vzwa4w&#41;)
 
 ---
 
@@ -45,17 +47,17 @@ Ensure your Angular version is 14 or higher.
 ### Step 1: Import the Service
 
 ```ts
-import { ExportToCsvService } from 'rm-ng-export-to-csv';
+import { RmNgExportToCsvService } from 'rm-ng-export-to-csv';
 ```
 
 ### Step 2: Inject into your Component or Service
 
 ```ts
-constructor(private exportCsv: ExportToCsvService) {}
+constructor(private exportCsv: RmNgExportToCsvService) {}
 
 OR
 
-private readonly exportCsv: ExportToCsvService = inject(ExportToCsvService);
+private readonly exportCsv: RmNgExportToCsvService = inject(RmNgExportToCsvService);
 
 ```
 
@@ -142,21 +144,6 @@ Tested on the latest versions of:
 * ✅ iOS Safari on iPhone & iPad
 
 Supports both desktop and mobile auto-download behavior.
-
----
-
-## 📁 Folder Structure (if used in workspace)
-
-```
-projects/
-├── export-csv/
-│   ├── src/
-│   │   ├── lib/
-│   │   │   └── export-csv.service.ts
-│   │   └── public-api.ts
-│   ├── README.md
-│   └── ng-package.json
-```
 
 ---
 

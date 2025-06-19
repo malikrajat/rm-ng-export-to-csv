@@ -43,7 +43,7 @@ class RmNgExportToCsvService {
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "18.2.13", ngImport: i0, type: RmNgExportToCsvService, decorators: [{
             type: Injectable,
             args: [{
-                    providedIn: 'root'
+                    providedIn: 'root',
                 }]
         }] });
 

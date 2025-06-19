@@ -1,14 +1,51 @@
 {
   "name": "rm-ng-export-to-csv",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "A lightweight and customizable Angular library to export JSON data to CSV files with auto-download support. Ideal for charts, tables, reports, and dashboards.",
+  "keywords": [
+    "angular",
+    "csv",
+    "export",
+    "json",
+    "json-to-csv",
+    "ngx",
+    "ngx-csv",
+    "ngx-export",
+    "angular-export",
+    "angular-csv",
+    "data-export",
+    "csv-export",
+    "download-csv",
+    "export-as-csv",
+    "angular-library",
+    "angular-csv-export",
+    "csv-generator",
+    "table-export",
+    "chart-export"
+  ],
+  "author": {
+    "name": "Rajat Malik",
+    "email": "mr.rajatmalik@gmail.com",
+    "url": "https://www.linkedin.com/in/errajatmalik/"
+  },
+  "homepage": "https://github.com/malikrajat/rm-ng-export-to-csv#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malikrajat/rm-ng-export-to-csv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/malikrajat/rm-ng-export-to-csv/issues"
+  },
   "peerDependencies": {
-    "@angular/common": "^18.2.0",
-    "@angular/core": "^18.2.0"
+    "@angular/common": ">=16.0.0 <18.2.0",
+    "@angular/core": ">=16.0.0 <18.2.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
+  "type": "module",
+  "license": "MIT",
   "module": "fesm2022/rm-ng-export-to-csv.mjs",
   "typings": "index.d.ts",
   "exports": {
