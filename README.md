@@ -13,6 +13,8 @@ ___
 
 `rm-ng-export-to-csv` is a lightweight, dependency-free Angular library that enables developers to **export JSON data as CSV** files with just one function call. This library is designed to be highly customizable, performant, tree-shakable, and works seamlessly across all major platforms and browsers.
 
+If you like this plugin, please give it a star ⭐.
+
 ✅ Supports custom CSV headers <br/>
 ✅ Compatible with all major browsers (Chrome, Firefox, Safari, Edge, iOS, Android) <br/>
 ✅ Mobile & tablet friendly <br/>
@@ -96,6 +98,7 @@ this.exportCsv.exportAsCSV(data, 'users.csv', headers);
 | Version | Ng   |
 |---------|------|
 | 1.x.x   | 18.x |
+| 2.x.x   | 19.x |
 
 ---
 
