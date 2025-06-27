@@ -54,8 +54,6 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2022": "./esm2022/rm-ng-export-to-csv.mjs",
-      "esm": "./esm2022/rm-ng-export-to-csv.mjs",
       "default": "./fesm2022/rm-ng-export-to-csv.mjs"
     }
   }
