@@ -99,6 +99,7 @@ this.exportCsv.exportAsCSV(data, 'users.csv', headers);
 |---------|------|
 | 1.x.x   | 18.x |
 | 2.x.x   | 19.x |
+| 3.x.x   | 20.x |
 
 ---
 
