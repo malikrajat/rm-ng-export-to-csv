@@ -1,5 +1,0 @@
-/*
- * Public API Surface of rm-ng-export-to-csv
- */
-export * from './lib/rm-ng-export-to-csv.service';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL3JtLW5nLWV4cG9ydC10by1jc3Yvc3JjL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLG1DQUFtQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBybS1uZy1leHBvcnQtdG8tY3N2XG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvcm0tbmctZXhwb3J0LXRvLWNzdi5zZXJ2aWNlJztcbiJdfQ==
