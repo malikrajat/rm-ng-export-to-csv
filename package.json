@@ -1,6 +1,6 @@
 {
   "name": "rm-ng-export-to-csv",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "A lightweight and customizable Angular library to export JSON data to CSV files with auto-download support. Ideal for charts, tables, reports, and dashboards.",
   "keywords": [
     "angular",
@@ -21,39 +21,114 @@
     "angular-csv-export",
     "csv-generator",
     "table-export",
-    "chart-export"
+    "chart-export",
+    "angular-17",
+    "angular-18",
+    "angular-19",
+    "angular-20",
+    "angular-21",
+    "angular-tools",
+    "angular-components",
+    "ngx-csv",
+    "csv",
+    "export",
+    "export-to-csv",
+    "csv-export",
+    "download-csv",
+    "table-export",
+    "data-export",
+    "json-to-csv",
+    "array-to-csv",
+    "object-to-csv",
+    "convert-to-csv",
+    "frontend-export",
+    "client-side-csv",
+    "reporting",
+    "data-management",
+    "typescript",
+    "web-utilities"
   ],
   "author": {
     "name": "Rajat Malik",
     "email": "mr.rajatmalik@gmail.com",
-    "url": "https://www.linkedin.com/in/errajatmalik/"
+    "url": "https://www.rajatmalik.dev/"
   },
+  "contributors": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
   "homepage": "https://github.com/malikrajat/rm-ng-export-to-csv#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/malikrajat/rm-ng-export-to-csv.git"
   },
   "bugs": {
-    "url": "https://github.com/malikrajat/rm-ng-export-to-csv/issues"
+    "url": "https://github.com/malikrajat/rm-ng-export-to-csv/issues",
+    "email": "mr.rajatmalik@gmail.com"
   },
   "peerDependencies": {
-    "@angular/common": ">=16.0.0 <20.0.0",
-    "@angular/core": ">=16.0.0 <20.0.0"
+    "@angular/common": ">=16.0.0 <21.0.0",
+    "@angular/core": ">=16.0.0 <21.0.0"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "^2.6.0"
   },
-  "sideEffects": false,
-  "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/malikrajat"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "ng-add": {
+    "save": "dependencies"
+  },
+  "ng-update": {
+    "packageGroup": [
+      "rm-ng-export-to-csv"
+    ]
+  },
+  "directories": {
+    "lib": "./src",
+    "doc": "./docs"
+  },
+  "packageManager": "pnpm@10.11.1",
   "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "private": false,
+  "preferGlobal": false,
+  "readme": "README.md",
   "module": "fesm2022/rm-ng-export-to-csv.mjs",
-  "typings": "index.d.ts",
+  "typings": "types/rm-ng-export-to-csv.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./index.d.ts",
+      "types": "./types/rm-ng-export-to-csv.d.ts",
       "default": "./fesm2022/rm-ng-export-to-csv.mjs"
     }
   }
