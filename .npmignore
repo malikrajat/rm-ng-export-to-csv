@@ -1,2 +1,8 @@
 # Nested package.json's are only needed for development.
 **/package.json
+assets/
+images/
+styles/
+*.png
+*.jpg
+*.svg
