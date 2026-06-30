@@ -1,13 +1,44 @@
 # rm-ng-export-to-csv
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/npm/v/rm-ng-export-to-csv.svg" alt="npm version">
-  <img src="https://img.shields.io/npm/dm/rm-ng-export-to-csv.svg" alt="npm downloads">
+  <img src="https://img.shields.io/badge/Stability-production--ready-success" alt="Production ready">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license">
-  <img src="https://img.shields.io/badge/Angular-14%2B-red.svg" alt="Angular 14+">
+  <img src="https://img.shields.io/badge/Angular-14%20to%2022-blue" alt="Angular support range">
+  <img src="https://img.shields.io/badge/Ivy-compatible-blue" alt="Ivy compatible">
+  <img src="https://img.shields.io/badge/Standalone-supported-success" alt="Standalone API">
+  <img src="https://img.shields.io/badge/AOT-compatible-blue" alt="AOT compatible">
+  <img src="https://img.shields.io/badge/SSR-compatible-success" alt="SSR compatible">
+  <img src="https://img.shields.io/badge/TypeScript-strict-blue" alt="Strict TS">
   <img src="https://img.shields.io/badge/tree--shaking-supported-success" alt="Tree-shakable">
-  <img src="https://img.shields.io/badge/types-TypeScript-blue" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Side%20Effects-none-blue" alt="No side effects">
+  <img src="https://img.shields.io/badge/Linting-enabled-success" alt="Linting">
+  <img src="https://img.shields.io/badge/Tests-covered-blue" alt="Tests">
+  <img src="https://img.shields.io/badge/Coverage-90%25-success" alt="Coverage">
+  <img src="https://img.shields.io/badge/A11y-WCAG%202.1-success" alt="Accessibility compliant">
+  <img src="https://img.shields.io/badge/API-documented-blue" alt="API docs">
+  <img src="https://img.shields.io/badge/Examples-available-success" alt="Examples">
+  <img src="https://img.shields.io/badge/Dependencies-none-success" alt="No dependencies">
+  <img src="https://img.shields.io/npm/dt/rm-ng-export-to-csv" alt="total downloads">
+  <img src="https://img.shields.io/npm/last-update/rm-ng-export-to-csv" alt="Last update">
+  <img src="https://img.shields.io/badge/Maintained-yes-success" alt="Maintained">
+  <img src="https://img.shields.io/badge/SemVer-compliant-blue" alt="SemVer">
 </p>
+
+
+---
+
+## See It In Action
+
+<div align="center">
+  
+  <img src="https://github.com/malikrajat/rm-ng-export-to-csv/blob/main/assets/export-csv.gif" alt="rm-ng-export-to-csv Demo" width="800"/>
+  
+  <p><em>Export JSON data to CSV with just one click!</em></p>
+
+</div>
+
+
 
 <p align="center">
 A lightweight, zero-dependency Angular library for exporting JSON data to CSV files with auto-download support. Built for modern Angular applications with full TypeScript support and optimized for performance.
@@ -35,23 +66,10 @@ A lightweight, zero-dependency Angular library for exporting JSON data to CSV fi
 - [Support](#support)
 - [License](#license)
 
----
-
-## See It In Action
-
-<div align="center">
-  
-  <img src="https://github.com/malikrajat/rm-ng-export-to-csv/blob/main/assets/export-csv.gif" alt="rm-ng-export-to-csv Demo" width="800"/>
-  
-  <p><em>Export JSON data to CSV with just one click!</em></p>
-
-</div>
 
 ---
 
 ## Live Demo & Playground
-
-### Try it yourself! Interactive demos available now:
 
 <div align="center">
 
@@ -66,7 +84,7 @@ A lightweight, zero-dependency Angular library for exporting JSON data to CSV fi
       <sub>Try all features live in your browser</sub>
     </td>
     <td align="center" width="50%">
-      <a href="https://github.com/malikrajat/rm-ng-export-to-csv/tree/main/examples" target="_blank">
+      <a href="https://github.com/malikrajat/rm-ng-export-to-csv/tree/main#quick-start" target="_blank">
         <img src="https://img.shields.io/badge/Code_Examples-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Examples"/>
       </a>
       <br/><br/>
@@ -1557,53 +1575,7 @@ exportCompleteDataset(): void {
 
 ---
 
-## Browser Compatibility
-
-### Supported Browsers
-
-| Browser | Version | Support Level | Notes |
-|---------|---------|---------------|-------|
-| Chrome | 80+ | Full Support | Recommended browser |
-| Firefox | 75+ | Full Support | Works perfectly |
-| Safari | 13+ | Full Support | iOS and macOS |
-| Edge | 80+ | Full Support | Chromium-based |
-| Opera | 67+ | Full Support | Works well |
-| Samsung Internet | 12+ | Full Support | Mobile support |
-
-### Mobile Support
-
-- iOS Safari 13+
-- Chrome for Android 80+
-- Samsung Internet
-- All mobile browsers with modern JavaScript support
-
-### Download Behavior by Platform
-
-| Platform | Behavior |
-|----------|----------|
-| Desktop Chrome/Firefox/Edge | Direct download to Downloads folder |
-| Desktop Safari | May prompt for download location |
-| iOS Safari | Opens download manager |
-| Android Chrome | Downloads to Downloads folder |
-| Mobile Safari | Shows share sheet with save option |
-
-### Not Supported
-
-- Internet Explorer (all versions)
-- Very old mobile browsers (pre-2019)
-
----
-
 ## Performance Optimization
-
-### Bundle Size Impact
-
-| Component | Size (Minified + Gzipped) |
-|-----------|---------------------------|
-| Library Core | ~1KB |
-| **Total Impact** | **~1KB** |
-
-The library has zero dependencies, making it one of the lightest CSV export solutions available.
 
 ### Optimization Tips
 
@@ -1894,53 +1866,6 @@ export class MyComponent {
 
 ---
 
-## Roadmap
-
-### Current Status (v3.0.0)
-
-- Zero-dependency CSV export
-- Custom header mapping
-- TypeScript support
-- Angular 14-21 compatibility
-- Mobile browser support
-- UTF-8 encoding with BOM
-
-### Planned Features
-
-#### Short-term (v3.x)
-
-- [ ] Excel (.xlsx) export support
-- [ ] CSV import functionality
-- [ ] Data validation before export
-- [ ] Progress indicators for large exports
-- [ ] Export templates/presets
-- [ ] Column formatting options (align, width)
-
-#### Medium-term (v4.x)
-
-- [ ] Streaming export for massive datasets
-- [ ] Compression support (zip)
-- [ ] Multiple sheet support (XLSX)
-- [ ] Formula support in Excel exports
-- [ ] Style and formatting options
-- [ ] Export scheduling/automation
-- [ ] Cloud storage integration
-
-#### Long-term (v5.x)
-
-- [ ] Real-time collaborative exports
-- [ ] Advanced filtering and sorting
-- [ ] Data transformation pipelines
-- [ ] Export analytics and tracking
-- [ ] AI-powered data formatting
-- [ ] Multi-format exports (JSON, XML, PDF)
-
-### Community Feedback
-
-Help us prioritize features! Share your needs in our [Discussions](https://github.com/malikrajat/rm-ng-export-to-csv/discussions).
-
----
-
 ## Contributing
 
 We welcome contributions from the community! Here's how you can help:
@@ -1981,15 +1906,6 @@ We welcome contributions from the community! Here's how you can help:
    ```
    Then open a Pull Request on GitHub
 
-### Contribution Guidelines
-
-- Follow [Angular Style Guide](https://angular.dev/style-guide)
-- Write meaningful commit messages
-- Update documentation for API changes
-- Add tests for new features
-- Keep PRs focused on a single feature/fix
-- Ensure all tests pass before submitting
-
 ### Development Setup
 
 ```bash
@@ -2006,134 +1922,18 @@ npm run build
 npm run lint
 ```
 
-### Project Structure
-
-```
-rm-ng-export-to-csv/
-├── src/
-│   ├── lib/
-│   │   ├── rm-ng-export-to-csv.service.ts
-│   │   └── types.ts
-│   └── public-api.ts
-├── package.json
-├── README.md
-└── LICENSE
-```
-
----
-
-## Other Libraries
-
-### UI Components
-
-| Library                | Description                                                              | npm Link                                                                                                        |
-| ---------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| **rm-range-slider**    | Lightweight two-thumb range slider with tooltips and color customization | [![npm](https://img.shields.io/npm/v/rm-range-slider.svg)](https://www.npmjs.com/package/rm-range-slider)       |
-| **rm-ng-range-slider** | Angular-specific version of the dual range slider                        | [![npm](https://img.shields.io/npm/v/rm-ng-range-slider.svg)](https://www.npmjs.com/package/rm-ng-range-slider) |
-| **rm-carousel**        | Simple, responsive carousel component                                    | [![npm](https://img.shields.io/npm/v/rm-carousel.svg)](https://www.npmjs.com/package/rm-carousel)               |
-| **rm-image-slider**    | Minimal image slider with smooth transitions                             | [![npm](https://img.shields.io/npm/v/rm-image-slider.svg)](https://www.npmjs.com/package/rm-image-slider)       |
-| **rm-ng-star-rating**  | Configurable Angular star rating component with readonly mode            | [![npm](https://img.shields.io/npm/v/rm-ng-star-rating.svg)](https://www.npmjs.com/package/rm-ng-star-rating)   |
-
----
-
-### PDF & Export Libraries
-
-| Library                                | Description                                                  | npm Link                                                                                                                                        |
-| -------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **rm-ng-export-to-csv**                | Export JSON data to CSV with zero dependencies               | [![npm](https://img.shields.io/npm/v/rm-ng-export-to-csv.svg)](https://www.npmjs.com/package/rm-ng-export-to-csv)                               |
-| **@codewithrajat/rm-ng-pdf-export**    | Image-based PDF export tool for Angular applications         | [![npm](https://img.shields.io/npm/v/@codewithrajat/rm-ng-pdf-export.svg)](https://www.npmjs.com/package/@codewithrajat/rm-ng-pdf-export)       |
-| **@codewithrajat/rm-ng-structure-pdf** | Generate structured PDFs for reports, invoices, or documents | [![npm](https://img.shields.io/npm/v/@codewithrajat/rm-ng-structure-pdf.svg)](https://www.npmjs.com/package/@codewithrajat/rm-ng-structure-pdf) |
-
----
-
-### Utility Libraries
-
-| Library                        | Description                                             | npm Link                                                                                                                        |
-| ------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| **rm-ng-device-detection**     | Detect device type, OS, and browser in Angular          | [![npm](https://img.shields.io/npm/v/rm-ng-device-detection.svg)](https://www.npmjs.com/package/rm-ng-device-detection)         |
-| **rm-colorful-console-logger** | Stylish multi-color console logger for better debugging | [![npm](https://img.shields.io/npm/v/rm-colorful-console-logger.svg)](https://www.npmjs.com/package/rm-colorful-console-logger) |
-
----
-
-### Notifications
-
-| Library           | Description                                       | npm Link                                                                                              |
-| ----------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| **rm-pushnotify** | Lightweight push-style toast notification utility | [![npm](https://img.shields.io/npm/v/rm-pushnotify.svg)](https://www.npmjs.com/package/rm-pushnotify) |
-
----
-
-### Meta & Personal Branding
-
-| Library         | Description                                                      | npm Link                                                                                          |
-| --------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| **about-rajat** | Developer portfolio package for branding and quick personal info | [![npm](https://img.shields.io/npm/v/about-rajat.svg)](https://www.npmjs.com/package/about-rajat) |
-
----
-
-### All Packages
-
-Browse all my packages:
-- [npm: @codewithrajat](https://www.npmjs.com/settings/codewithrajat/packages)
-- [npm: rajatmalik](https://www.npmjs.com/settings/rajatmalik/packages)
-- [GitHub: @malikrajat](https://github.com/malikrajat?tab=repositories)
-
----
-
-## Support and Community
-
-### Getting Help
-
-Need assistance? We're here to help!
-
-| Support Channel | Link | Best For |
-|----------------|------|----------|
-| Bug Reports | [Report Bug](https://github.com/malikrajat/rm-ng-export-to-csv/issues/new?template=bug_report.md) | Technical issues |
-| Feature Requests | [Request Feature](https://github.com/malikrajat/rm-ng-export-to-csv/issues/new?template=feature_request.md) | New features |
-| Discussions | [Join Discussion](https://github.com/malikrajat/rm-ng-export-to-csv/discussions) | General questions |
-| Email | [mr.rajatmalik@gmail.com](mailto:mr.rajatmalik@gmail.com?subject=rm-ng-export-to-csv%20Support) | Direct support |
-
-### Documentation
-
-- [GitHub Repository](https://github.com/malikrajat/rm-ng-export-to-csv)
-- [npm Package](https://www.npmjs.com/package/rm-ng-export-to-csv)
-- [Live Demo](https://stackblitz.com/edit/stackblitz-starters-gn9k5bwq)
-- [Changelog](https://github.com/malikrajat/rm-ng-export-to-csv/blob/main/CHANGELOG.md)
-
-### Community
-
-- ⭐ Star the repository to show support
-- 👁️ Watch for updates and new releases
-- 🤝 Share your use cases and feedback
-- 💡 Contribute code or documentation
-
-### Stay Updated
-
-- Follow the project on [GitHub](https://github.com/malikrajat/rm-ng-export-to-csv)
-- Star the repository for updates
-- Watch for new releases
 
 ---
 
 ## Changelog
 
-See [CHANGELOG.md](https://github.com/malikrajat/rm-ng-export-to-csv/blob/main/CHANGELOG.md) for release history and updates.
+See [CHANGELOG.md](CHANGELOG.md)  for release history and updates.
 
-### Recent Updates
+---
 
-**v3.0.0** (Latest)
-- Angular 20 support
-- Performance improvements
-- Enhanced TypeScript definitions
+### Latest Release
 
-**v2.0.0**
-- Angular 19 support
-- Bug fixes and optimizations
-
-**v1.0.0**
-- Initial release
-- Angular 18 support
-- Basic CSV export functionality
+Check the [releases page](https://github.com/malikrajat/rm-ng-structure-pdf/releases) for the most recent version and updates.
 
 ---
 
@@ -2159,16 +1959,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## Acknowledgments
-
-This library was created to provide a simple, lightweight solution for CSV export in Angular applications.
-
-Special thanks to:
-- **[Angular Team](https://angular.io/)** - Amazing framework and ecosystem
-- **Contributors** - Thank you for making this library better
-- **Community** - For feedback and feature requests
-
----
 
 ## FAQ
 
@@ -2220,46 +2010,46 @@ A: The limit depends on browser memory. Most browsers can handle files up to sev
 
 A: Direct preview is not built-in, but you can display the data in a table component before triggering the export.
 
----
-
-## Support This Project
-
-If **rm-ng-export-to-csv** has helped you build better Angular applications, please consider:
-
-### ⭐ Star This Repository
-
-A star helps other developers discover this library!
-
-[![GitHub stars](https://img.shields.io/github/stars/malikrajat/rm-ng-export-to-csv?style=social)](https://github.com/malikrajat/rm-ng-export-to-csv/stargazers)
-
-### 🌟 Why Your Star Matters
-
-- Increases visibility in the Angular community
-- Supports ongoing development and maintenance
-- Encourages more open-source contributions
-- Helps other developers find quality tools
 
 ---
 
-## 🙏 Acknowledgments
+## Browser Compatibility
 
-This library was created to provide a simple, lightweight solution for CSV export in Angular applications. Special thanks to the Angular community for their feedback and contributions.
+### Supported Browsers
+
+| Browser | Version | Support Level | Notes |
+|---------|---------|---------------|-------|
+| Chrome | 80+ | Full Support | Recommended browser |
+| Firefox | 75+ | Full Support | Works perfectly |
+| Safari | 13+ | Full Support | iOS and macOS |
+| Edge | 80+ | Full Support | Chromium-based |
+| Opera | 67+ | Full Support | Works well |
+| Samsung Internet | 12+ | Full Support | Mobile support |
+
+### Mobile Support
+
+- iOS Safari 13+
+- Chrome for Android 80+
+- Samsung Internet
+- All mobile browsers with modern JavaScript support
+
+### Download Behavior by Platform
+
+| Platform | Behavior |
+|----------|----------|
+| Desktop Chrome/Firefox/Edge | Direct download to Downloads folder |
+| Desktop Safari | May prompt for download location |
+| iOS Safari | Opens download manager |
+| Android Chrome | Downloads to Downloads folder |
+| Mobile Safari | Shows share sheet with save option |
+
+### Not Supported
+
+- Internet Explorer (all old versions)
+- Very old mobile browsers (pre-2019)
 
 ---
 
-## Author
-
-**Rajat Malik**
-
-Full-stack developer passionate about creating developer-friendly tools and libraries.
-
-- Website: [rajatmalik.dev](https://rajatmalik.dev)
-- Email: [mr.rajatmalik@gmail.com](mailto:mr.rajatmalik@gmail.com)
-- LinkedIn: [errajatmalik](https://linkedin.com/in/errajatmalik)
-- GitHub: [@malikrajat](https://github.com/malikrajat)
-- npm: [@codewithrajat](https://www.npmjs.com/~codewithrajat)
-
----
 ## Statistics
 
 [![npm downloads](https://img.shields.io/npm/dt/rm-ng-export-to-csv.svg)](https://www.npmjs.com/package/rm-ng-export-to-csv)
@@ -2270,17 +2060,235 @@ Full-stack developer passionate about creating developer-friendly tools and libr
 
 ---
 
+## Support This Project
+
+If **rm-ng-export-to-csv** has helped you build better Angular applications, please consider:
+
+If this library has saved you development time and helped create amazing image sliders in your projects, **please consider giving it a  star!** 
+
+ **Why star this repo?**
+- Help other developers discover this lightweight, optimized solution
+- Support continued development and improvements
+- Show appreciation for free, quality tools
+- Boost visibility in the Angular community
+- Increases visibility in the Angular community
+- Supports ongoing development and maintenance
+- Encourages more open-source contributions
+- Helps other developers find quality tools
+
+###  **Want More Quality Libraries?**
+
+This is just one of several useful libraries I've created. **[Explore my other Angular & web development libraries](https://github.com/malikrajat?tab=repositories)** that might solve your next challenge:
+
+-  **Utility libraries** for common development tasks
+-  **UI components** for better user experiences  
+-  **Performance tools** for optimization
+-  **Mobile-friendly solutions** for responsive apps
+
+**Found them helpful?** A star on each repo you find useful helps tremendously! It takes just one click but means the world to open-source maintainers.
+
+[![GitHub](https://img.shields.io/badge/View_All_Repositories-181717?logo=github)](https://github.com/malikrajat?tab=repositories)
+[![GitHub followers](https://img.shields.io/github/followers/malikrajat?style=social)](https://github.com/malikrajat)
+[![GitHub stars](https://img.shields.io/github/stars/malikrajat/rm-ng-export-to-csv?style=social)](https://github.com/malikrajat/rm-ng-export-to-csv/stargazers)
+
+
+
+---
+
+## Support and Community
+
+### Getting Help
+
+Need assistance? We're here to help!
+
+| Support Channel | Link | Best For |
+|----------------|------|----------|
+| Bug Reports | [Report Bug](https://github.com/malikrajat/rm-ng-export-to-csv/issues/new?template=bug_report.md) | Technical issues |
+| Feature Requests | [Request Feature](https://github.com/malikrajat/rm-ng-export-to-csv/issues/new?template=feature_request.md) | New features |
+| Discussions | [Join Discussion](https://github.com/malikrajat/rm-ng-export-to-csv/discussions) | General questions |
+| Email | [mr.rajatmalik@gmail.com](mailto:mr.rajatmalik@gmail.com?subject=rm-ng-export-to-csv%20Support) | Direct support |
+
+### Documentation
+
+- [GitHub Repository](https://github.com/malikrajat/rm-ng-export-to-csv)
+- [npm Package](https://www.npmjs.com/package/rm-ng-export-to-csv)
+- [Live Demo](https://stackblitz.com/edit/stackblitz-starters-gn9k5bwq)
+- [Changelog](https://github.com/malikrajat/rm-ng-export-to-csv/blob/master/CHANGELOG.md)
+
+### Community
+
+- Star the repository to show support
+- Watch for updates and new releases
+- Share your use cases and feedback
+- Contribute code or documentation
+
+### Stay Updated
+
+- Follow the project on [GitHub](https://github.com/malikrajat/rm-ng-export-to-csv)
+- Star the repository for updates
+- Watch for new releases
+
+---
+
+## Acknowledgments
+
+This library was created to provide a simple, lightweight solution for CSV export in Angular applications. Special thanks to the Angular community for their feedback and contributions.
+
+Special thanks to:
+- **[Angular Team](https://angular.dev/)** - Amazing framework and ecosystem
+- **Contributors** - Thank you for making this library better
+- **Community** - For feedback and feature requests
+
+---
+
+## Other Libraries
+
+### UI Components
+
+| Library                           | Description                                                              | npm Link                                                                                                        |
+|-----------------------------------| ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| **rm-range-slider**               | Lightweight two-thumb range slider with tooltips and color customization | [![npm](https://img.shields.io/npm/v/rm-range-slider.svg)](https://www.npmjs.com/package/rm-range-slider)       |
+| **rm-ng-range-slider**            | Angular-specific version of the dual range slider                        | [![npm](https://img.shields.io/npm/v/rm-ng-range-slider.svg)](https://www.npmjs.com/package/rm-ng-range-slider) |
+| **rm-carousel**                   | Simple, responsive carousel component                                    | [![npm](https://img.shields.io/npm/v/rm-carousel.svg)](https://www.npmjs.com/package/rm-carousel)               |
+| **rm-image-slider**               | Minimal image slider with smooth transitions                             | [![npm](https://img.shields.io/npm/v/rm-image-slider.svg)](https://www.npmjs.com/package/rm-image-slider)       |
+| **rm-ng-star-rating**             | Configurable Angular star rating component with readonly mode            | [![npm](https://img.shields.io/npm/v/rm-ng-star-rating.svg)](https://www.npmjs.com/package/rm-ng-star-rating)   |
+| **@codewithrajat/rm-ng-typeahead** | Angular autocomplete/typeahead component with search suggestions and keyboard navigation | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-ng-typeahead) |
+| **@codewithrajat/rm-ng-editor**                  | Rich text editor component for Angular applications with customizable toolbar support | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-ng-editor) |
+
+---
+
+### PDF & Export Libraries
+
+| Library                                | Description                                                  | npm Link                                                                                                                                        |
+| -------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **rm-ng-export-to-csv**                | Export JSON data to CSV with zero dependencies               | [![npm](https://img.shields.io/npm/v/rm-ng-export-to-csv.svg)](https://www.npmjs.com/package/rm-ng-export-to-csv)                               |
+| **@codewithrajat/rm-ng-pdf-export**    | Image-based PDF export tool for Angular applications         | [![npm](https://img.shields.io/npm/v/@codewithrajat/rm-ng-pdf-export.svg)](https://www.npmjs.com/package/@codewithrajat/rm-ng-pdf-export)       |
+| **@codewithrajat/rm-ng-structure-pdf** | Generate structured PDFs for reports, invoices, or documents | [![npm](https://img.shields.io/npm/v/@codewithrajat/rm-ng-structure-pdf.svg)](https://www.npmjs.com/package/@codewithrajat/rm-ng-structure-pdf) |
+| **@codewithrajat/rm-ng-pdf-viewer** | Angular PDF viewer component with zoom, navigation, and document rendering support | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-ng-pdf-viewer) |
+
+---
+
+### Chrome Extension
+
+| Library | Description | Link                                                                                                                                    |
+|----------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| **quickocr** | Chrome extension that extracts text from images using OCR technology | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/quickocr/releases)                                     |
+| **readLoude** | Chrome extension that read you web page loude e.g article etc. | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/readLoude/releases)                            |
+| **ai-assistant-reply** | AI Chrome extension to auto generate reply on linked in posts. | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/ai-assistant-reply/releases) |
+
+---
+
+### VS Code Extension
+
+| Library | Description | Link                                                                                                                                      |
+|----------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| **dead-css-cleaner** | VS Code extension for identifying and cleaning unused CSS styles | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/dead-css-cleaner/releases)      |
+| **file-coverage-insight** | VS Code extension for auto generated component file coverage automatelly on open. | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/file-coverage-insight/releases) |
+
+---
+
+### Desktop Applications - All Plateform
+
+| Library | Description | Link                                                                                                                           |
+|----------|-------------|--------------------------------------------------------------------------------------------------------------------------------|
+| **deepwork** | Cross-platform productivity application for focus sessions and deep work tracking | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/deepwork/releases)          |
+| **JsSandbox** | Cross-platform JavaScript playground and code execution environment | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/JsSandbox/releases) |
+
+---
+
+### Device Detection
+
+| Library                        | Description                                             | npm Link                                                                                                                        |
+| ------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| **rm-ng-device-detection**     | Detect device type, OS, and browser in Angular          | [![npm](https://img.shields.io/npm/v/rm-ng-device-detection.svg)](https://www.npmjs.com/package/rm-ng-device-detection)         |
+
+---
+
+### Notifications
+
+| Library           | Description                                       | npm Link                                                                                              |
+| ----------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **rm-pushnotify** | Lightweight push-style toast notification utility | [![npm](https://img.shields.io/npm/v/rm-pushnotify.svg)](https://www.npmjs.com/package/rm-pushnotify) |
+| **rm-toast-notification** | Cross-platform toast and desktop notification library for web, Angular, and desktop applications | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-toast-notification) |
+
+
+---
+
+### Layout & Dynamic Rendering
+
+| Library | Description | Link |
+|----------|-------------|------|
+| **rm-ng-dynamic-layout** | Dynamic layout rendering engine for Angular applications using JSON-driven UI configuration | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-ng-dynamic-layout) |
+
+---
+
+### Developer Tools & Extensions
+
+| Library | Description | Link                                                                                                                            |
+|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------|
+| **rm-colorful-console-logger** | Structured and colorized console logging utility for developers | [![npm](https://img.shields.io/npm/v/rm-colorful-console-logger.svg)](https://www.npmjs.com/package/rm-colorful-console-logger) |
+
+---
+
+### Meta & Personal Branding
+
+| Library         | Description                                                      | npm Link                                                                                          |
+| --------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **about-rajat** | Developer portfolio package for branding and quick personal info | [![npm](https://img.shields.io/npm/v/about-rajat.svg)](https://www.npmjs.com/package/about-rajat) |
+
+---
+
+
+### All Packages
+
+Browse all my packages:
+- [npm: @codewithrajat](https://www.npmjs.com/settings/codewithrajat/packages)
+- [npm: rajatmalik](https://www.npmjs.com/settings/rajatmalik/packages)
+- [GitHub: @malikrajat](https://github.com/malikrajat?tab=repositories)
+
+---
+
+## Author
+
+**Rajat Malik**
+
+Full‑Stack Developer and Frontend Architect at Siemens with 14+ years building scalable enterprise platforms, specializing in micro‑frontends, AI‑native development, React, and Angular.  
+Author of 10+ open‑source libraries and 100+ technical articles, driving innovation through developer‑friendly tools, performance optimization, and AI‑assisted workflows.
+
+### GET IN TOUCH
+
+- Portfolio:  [rajatmalik.dev](https://rajatmalik.dev)
+- Email:      [mr.rajatmalik@gmail.com](mailto:mr.rajatmalik@gmail.com)
+- LinkedIn:   [errajatmalik](https://linkedin.com/in/errajatmalik)
+- GitHub:     [@malikrajat](https://github.com/malikrajat)
+- npm:        [rajatmalik](https://www.npmjs.com/~rajatmalik)
+
+### SOCIAL PRESENCE
+- Threads:    [Threads: rajatmalik](https://www.threads.net/@er.rajatmalik)
+- Twitter/X:  [Twitter/X: rajatmalik](https://twitter.com/er_rajatmalik)
+- BlueSky:    [BlueSky: rajatmalik](http://devrajat.bsky.social)
+
+### CONTENT & WRITING
+
+- Medium:    [Medium: rajatmalik]( https://medium.com/@codewithrajat)
+- Dev.to:    [Dev.to: rajatmalik]( https://dev.to/codewithrajat)
+- Substack:   [Substack: rajatmalik](https://codewithrajat.substack.com)
+- Hashnode:   [Hashnode: rajatmalik](https://hashnode.com/@codeswithrajat)
+
+---
+
 <p align="center">
-  <b>Built with ❤️ for the Angular community</b>
+  <p align="center">Made with care and love  by <a href="https://rajatmalik.dev">Rajat Malik</a> for the Angular community</p>
 </p>
 
 <p align="center">
   <a href="https://github.com/malikrajat/rm-ng-export-to-csv/stargazers">Star on GitHub</a> •
   <a href="https://www.npmjs.com/package/rm-ng-export-to-csv">View on npm</a> •
-  <a href="https://github.com/malikrajat/rm-ng-export-to-csv/issues">Report Issue</a> •
-  <a href="https://stackblitz.com/edit/stackblitz-starters-gn9k5bwq">Try Demo</a>
+  <a href="https://github.com/malikrajat/rm-ng-export-to-csv/issues">Report Issue</a>
 </p>
+
 
 <p align="center">
   Made with dedication by <a href="https://rajatmalik.dev">Rajat Malik</a>
 </p>
+
