@@ -1933,7 +1933,7 @@ See [CHANGELOG.md](CHANGELOG.md)  for release history and updates.
 
 ### Latest Release
 
-Check the [releases page](https://github.com/malikrajat/rm-ng-structure-pdf/releases) for the most recent version and updates.
+Check the [releases page](https://github.com/malikrajat/rm-ng-export-to-csv/releases) for the most recent version and updates.
 
 ---
 
